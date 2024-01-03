@@ -26,7 +26,7 @@ final class Injection: NSObject {
     }
     return interactor
   }
-  func provideFavorite<U: UseCase>() -> U where U.Request == Any, U.Response == [FavoriteGameModel]{
+  func provideFavorite<U: UseCase>() -> U where U.Request == Any, U.Response == [FavoriteGameModel] {
     let locale = GetFavoriteLocaleDataSource()
     let repository = GetFavoriteGameRepository(localeDataSource: locale)
     guard let interactor = Interactor(repository: repository) as? U else {

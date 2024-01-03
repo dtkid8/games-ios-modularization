@@ -25,6 +25,7 @@
 		49F1492B2B4417F50057DCAA /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 49F1492A2B4417F50057DCAA /* Core */; };
 		49F516FB2B4435EE00BB6293 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 49F516FA2B4435EE00BB6293 /* Home */; };
 		49F516FD2B444E7800BB6293 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 49F516FC2B444E7800BB6293 /* Alamofire */; };
+		49FE53E72B45881A004E1695 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 49FE53E62B45881A004E1695 /* Core */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 				49F516FD2B444E7800BB6293 /* Alamofire in Frameworks */,
 				49F1492B2B4417F50057DCAA /* Core in Frameworks */,
 				49F516FB2B4435EE00BB6293 /* Home in Frameworks */,
+				49FE53E72B45881A004E1695 /* Core in Frameworks */,
 				49910C9B2B454D63007E1C7D /* Favorite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +267,7 @@
 				49F516FC2B444E7800BB6293 /* Alamofire */,
 				49910C9A2B454D63007E1C7D /* Favorite */,
 				4907E3F52B456E40004A5054 /* Detail */,
+				49FE53E62B45881A004E1695 /* Core */,
 			);
 			productName = games;
 			productReference = 4961AF5C2B14AEDC00B74075 /* games.app */;
@@ -296,10 +299,10 @@
 			mainGroup = 4961AF532B14AEDB00B74075;
 			packageReferences = (
 				49A778832B24456A00DC084E /* XCRemoteSwiftPackageReference "Alamofire" */,
-				49F149292B4417F50057DCAA /* XCLocalSwiftPackageReference "../Modules/Core" */,
 				49F1492D2B441ECA0057DCAA /* XCLocalSwiftPackageReference "../Modules/Home" */,
 				49910C992B454D63007E1C7D /* XCLocalSwiftPackageReference "../Modules/Favorite" */,
 				4907E3F42B456E40004A5054 /* XCLocalSwiftPackageReference "../Modules/Detail" */,
+				49FE53E52B45881A004E1695 /* XCLocalSwiftPackageReference "../Modules/Core" */,
 			);
 			productRefGroup = 4961AF5D2B14AEDC00B74075 /* Products */;
 			projectDirPath = "";
@@ -579,13 +582,13 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../Modules/Favorite;
 		};
-		49F149292B4417F50057DCAA /* XCLocalSwiftPackageReference "../Modules/Core" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../Modules/Core;
-		};
 		49F1492D2B441ECA0057DCAA /* XCLocalSwiftPackageReference "../Modules/Home" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../Modules/Home;
+		};
+		49FE53E52B45881A004E1695 /* XCLocalSwiftPackageReference "../Modules/Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Modules/Core;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -627,6 +630,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 49A778832B24456A00DC084E /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		49FE53E62B45881A004E1695 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
 		};
 /* End XCSwiftPackageProductDependency section */
 
